@@ -1,0 +1,10 @@
+//
+// Prefix header for all source files of the 'PDFTextLib' target in the 'PDFTextLib' project.
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
+
+// enable this to print memory reports
+#define DEBUG_MEM

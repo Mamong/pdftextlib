@@ -1,0 +1,562 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A7AC76B13AC5A610004C932 /* FoFiBase.cc in Sources */ = {isa = PBXBuildFile; fileRef = 1A7AC6FC13AC5A5F0004C932 /* FoFiBase.cc */; };
+		1A7AC76C13AC5A610004C932 /* FoFiEncodings.cc in Sources */ = {isa = PBXBuildFile; fileRef = 1A7AC6FE13AC5A5F0004C932 /* FoFiEncodings.cc */; };
+		1A7AC76D13AC5A610004C932 /* FoFiTrueType.cc in Sources */ = {isa = PBXBuildFile; fileRef = 1A7AC70013AC5A5F0004C932 /* FoFiTrueType.cc */; };
+		1A7AC76E13AC5A610004C932 /* FoFiType1.cc in Sources */ = {isa = PBXBuildFile; fileRef = 1A7AC70213AC5A5F0004C932 /* FoFiType1.cc */; };
+		1A7AC76F13AC5A610004C932 /* FoFiType1C.cc in Sources */ = {isa = PBXBuildFile; fileRef = 1A7AC70413AC5A5F0004C932 /* FoFiType1C.cc */; };
+		1A7AC77013AC5A610004C932 /* gfile.cc in Sources */ = {isa = PBXBuildFile; fileRef = 1A7AC70713AC5A5F0004C932 /* gfile.cc */; };
+		1A7AC77113AC5A610004C932 /* gmem.cc in Sources */ = {isa = PBXBuildFile; fileRef = 1A7AC70913AC5A5F0004C932 /* gmem.cc */; };
+		1A7AC77213AC5A610004C932 /* gmempp.cc in Sources */ = {isa = PBXBuildFile; fileRef = 1A7AC70B13AC5A5F0004C932 /* gmempp.cc */; };
+		1A7AC77313AC5A610004C932 /* GooHash.cc in Sources */ = {isa = PBXBuildFile; fileRef = 1A7AC70C13AC5A5F0004C932 /* GooHash.cc */; };
+		1A7AC77413AC5A610004C932 /* GooList.cc in Sources */ = {isa = PBXBuildFile; fileRef = 1A7AC70F13AC5A5F0004C932 /* GooList.cc */; };
+		1A7AC77513AC5A610004C932 /* GooString.cc in Sources */ = {isa = PBXBuildFile; fileRef = 1A7AC71113AC5A5F0004C932 /* GooString.cc */; };
+		1A7AC77613AC5A610004C932 /* gstrtod.cc in Sources */ = {isa = PBXBuildFile; fileRef = 1A7AC71313AC5A5F0004C932 /* gstrtod.cc */; };
+		1A7AC77913AC5A610004C932 /* PDFTextLib.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1A7AC71B13AC5A5F0004C932 /* PDFTextLib.mm */; };
+		1A7AC77A13AC5A610004C932 /* Array.cc in Sources */ = {isa = PBXBuildFile; fileRef = 1A7AC71D13AC5A5F0004C932 /* Array.cc */; };
+		1A7AC77B13AC5A610004C932 /* BuiltinFont.cc in Sources */ = {isa = PBXBuildFile; fileRef = 1A7AC71F13AC5A5F0004C932 /* BuiltinFont.cc */; };
+		1A7AC77C13AC5A610004C932 /* BuiltinFontTables.cc in Sources */ = {isa = PBXBuildFile; fileRef = 1A7AC72113AC5A5F0004C932 /* BuiltinFontTables.cc */; };
+		1A7AC77D13AC5A610004C932 /* Catalog.cc in Sources */ = {isa = PBXBuildFile; fileRef = 1A7AC72313AC5A5F0004C932 /* Catalog.cc */; };
+		1A7AC77E13AC5A610004C932 /* CharCodeToUnicode.cc in Sources */ = {isa = PBXBuildFile; fileRef = 1A7AC72513AC5A5F0004C932 /* CharCodeToUnicode.cc */; };
+		1A7AC77F13AC5A610004C932 /* CMap.cc in Sources */ = {isa = PBXBuildFile; fileRef = 1A7AC72713AC5A5F0004C932 /* CMap.cc */; };
+		1A7AC78013AC5A610004C932 /* Decrypt.cc in Sources */ = {isa = PBXBuildFile; fileRef = 1A7AC72913AC5A5F0004C932 /* Decrypt.cc */; };
+		1A7AC78113AC5A610004C932 /* Dict.cc in Sources */ = {isa = PBXBuildFile; fileRef = 1A7AC72B13AC5A600004C932 /* Dict.cc */; };
+		1A7AC78213AC5A610004C932 /* Error.cc in Sources */ = {isa = PBXBuildFile; fileRef = 1A7AC72D13AC5A600004C932 /* Error.cc */; };
+		1A7AC78313AC5A610004C932 /* FontEncodingTables.cc in Sources */ = {isa = PBXBuildFile; fileRef = 1A7AC73013AC5A600004C932 /* FontEncodingTables.cc */; };
+		1A7AC78413AC5A610004C932 /* Function.cc in Sources */ = {isa = PBXBuildFile; fileRef = 1A7AC73213AC5A600004C932 /* Function.cc */; };
+		1A7AC78513AC5A610004C932 /* Gfx.cc in Sources */ = {isa = PBXBuildFile; fileRef = 1A7AC73413AC5A600004C932 /* Gfx.cc */; };
+		1A7AC78613AC5A610004C932 /* GfxFont.cc in Sources */ = {isa = PBXBuildFile; fileRef = 1A7AC73613AC5A600004C932 /* GfxFont.cc */; };
+		1A7AC78713AC5A610004C932 /* GfxState.cc in Sources */ = {isa = PBXBuildFile; fileRef = 1A7AC73813AC5A600004C932 /* GfxState.cc */; };
+		1A7AC78813AC5A610004C932 /* GlobalParams.cc in Sources */ = {isa = PBXBuildFile; fileRef = 1A7AC73B13AC5A600004C932 /* GlobalParams.cc */; };
+		1A7AC78913AC5A610004C932 /* Hints.cc in Sources */ = {isa = PBXBuildFile; fileRef = 1A7AC73D13AC5A600004C932 /* Hints.cc */; };
+		1A7AC78A13AC5A610004C932 /* JArithmeticDecoder.cc in Sources */ = {isa = PBXBuildFile; fileRef = 1A7AC73F13AC5A600004C932 /* JArithmeticDecoder.cc */; };
+		1A7AC78B13AC5A610004C932 /* JBIG2Stream.cc in Sources */ = {isa = PBXBuildFile; fileRef = 1A7AC74113AC5A600004C932 /* JBIG2Stream.cc */; };
+		1A7AC78C13AC5A610004C932 /* JPXStream.cc in Sources */ = {isa = PBXBuildFile; fileRef = 1A7AC74313AC5A600004C932 /* JPXStream.cc */; };
+		1A7AC78D13AC5A610004C932 /* Lexer.cc in Sources */ = {isa = PBXBuildFile; fileRef = 1A7AC74513AC5A600004C932 /* Lexer.cc */; };
+		1A7AC78E13AC5A610004C932 /* Linearization.cc in Sources */ = {isa = PBXBuildFile; fileRef = 1A7AC74713AC5A600004C932 /* Linearization.cc */; };
+		1A7AC78F13AC5A610004C932 /* NameToCharCode.cc in Sources */ = {isa = PBXBuildFile; fileRef = 1A7AC74913AC5A600004C932 /* NameToCharCode.cc */; };
+		1A7AC79013AC5A610004C932 /* Object.cc in Sources */ = {isa = PBXBuildFile; fileRef = 1A7AC74C13AC5A600004C932 /* Object.cc */; };
+		1A7AC79113AC5A610004C932 /* OptionalContent.cc in Sources */ = {isa = PBXBuildFile; fileRef = 1A7AC74E13AC5A600004C932 /* OptionalContent.cc */; };
+		1A7AC79213AC5A610004C932 /* OutputDev.cc in Sources */ = {isa = PBXBuildFile; fileRef = 1A7AC75013AC5A600004C932 /* OutputDev.cc */; };
+		1A7AC79313AC5A610004C932 /* Page.cc in Sources */ = {isa = PBXBuildFile; fileRef = 1A7AC75213AC5A610004C932 /* Page.cc */; };
+		1A7AC79413AC5A610004C932 /* Parser.cc in Sources */ = {isa = PBXBuildFile; fileRef = 1A7AC75413AC5A610004C932 /* Parser.cc */; };
+		1A7AC79513AC5A610004C932 /* PDFDoc.cc in Sources */ = {isa = PBXBuildFile; fileRef = 1A7AC75613AC5A610004C932 /* PDFDoc.cc */; };
+		1A7AC79613AC5A610004C932 /* PopplerCache.cc in Sources */ = {isa = PBXBuildFile; fileRef = 1A7AC75913AC5A610004C932 /* PopplerCache.cc */; };
+		1A7AC79713AC5A610004C932 /* PSTokenizer.cc in Sources */ = {isa = PBXBuildFile; fileRef = 1A7AC75B13AC5A610004C932 /* PSTokenizer.cc */; };
+		1A7AC79813AC5A610004C932 /* SecurityHandler.cc in Sources */ = {isa = PBXBuildFile; fileRef = 1A7AC75D13AC5A610004C932 /* SecurityHandler.cc */; };
+		1A7AC79913AC5A610004C932 /* Stream.cc in Sources */ = {isa = PBXBuildFile; fileRef = 1A7AC76013AC5A610004C932 /* Stream.cc */; };
+		1A7AC79A13AC5A610004C932 /* TextOutputDev.cc in Sources */ = {isa = PBXBuildFile; fileRef = 1A7AC76213AC5A610004C932 /* TextOutputDev.cc */; };
+		1A7AC79B13AC5A610004C932 /* UnicodeTypeTable.cc in Sources */ = {isa = PBXBuildFile; fileRef = 1A7AC76713AC5A610004C932 /* UnicodeTypeTable.cc */; };
+		1A7AC79C13AC5A610004C932 /* XRef.cc in Sources */ = {isa = PBXBuildFile; fileRef = 1A7AC76913AC5A610004C932 /* XRef.cc */; };
+		1A7AC7B613AC62020004C932 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A7AC7B513AC62020004C932 /* Cocoa.framework */; };
+		8DD76F9A0486AA7600D96B5E /* PDFTextLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* PDFTextLib.m */; settings = {ATTRIBUTES = (); }; };
+		8DD76F9C0486AA7600D96B5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FB779EFE84155DC02AAC07 /* Foundation.framework */; };
+		8DD76F9F0486AA7600D96B5E /* PDFTextLib.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6859EA3029092ED04C91782 /* PDFTextLib.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DD76F9E0486AA7600D96B5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				8DD76F9F0486AA7600D96B5E /* PDFTextLib.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		08FB7796FE84155DC02AAC07 /* PDFTextLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFTextLib.m; sourceTree = "<group>"; };
+		08FB779EFE84155DC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		1A7AC6FC13AC5A5F0004C932 /* FoFiBase.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FoFiBase.cc; sourceTree = "<group>"; };
+		1A7AC6FD13AC5A5F0004C932 /* FoFiBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoFiBase.h; sourceTree = "<group>"; };
+		1A7AC6FE13AC5A5F0004C932 /* FoFiEncodings.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FoFiEncodings.cc; sourceTree = "<group>"; };
+		1A7AC6FF13AC5A5F0004C932 /* FoFiEncodings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoFiEncodings.h; sourceTree = "<group>"; };
+		1A7AC70013AC5A5F0004C932 /* FoFiTrueType.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FoFiTrueType.cc; sourceTree = "<group>"; };
+		1A7AC70113AC5A5F0004C932 /* FoFiTrueType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoFiTrueType.h; sourceTree = "<group>"; };
+		1A7AC70213AC5A5F0004C932 /* FoFiType1.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FoFiType1.cc; sourceTree = "<group>"; };
+		1A7AC70313AC5A5F0004C932 /* FoFiType1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoFiType1.h; sourceTree = "<group>"; };
+		1A7AC70413AC5A5F0004C932 /* FoFiType1C.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FoFiType1C.cc; sourceTree = "<group>"; };
+		1A7AC70513AC5A5F0004C932 /* FoFiType1C.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoFiType1C.h; sourceTree = "<group>"; };
+		1A7AC70713AC5A5F0004C932 /* gfile.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gfile.cc; sourceTree = "<group>"; };
+		1A7AC70813AC5A5F0004C932 /* gfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gfile.h; sourceTree = "<group>"; };
+		1A7AC70913AC5A5F0004C932 /* gmem.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gmem.cc; sourceTree = "<group>"; };
+		1A7AC70A13AC5A5F0004C932 /* gmem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gmem.h; sourceTree = "<group>"; };
+		1A7AC70B13AC5A5F0004C932 /* gmempp.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gmempp.cc; sourceTree = "<group>"; };
+		1A7AC70C13AC5A5F0004C932 /* GooHash.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GooHash.cc; sourceTree = "<group>"; };
+		1A7AC70D13AC5A5F0004C932 /* GooHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GooHash.h; sourceTree = "<group>"; };
+		1A7AC70E13AC5A5F0004C932 /* GooLikely.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GooLikely.h; sourceTree = "<group>"; };
+		1A7AC70F13AC5A5F0004C932 /* GooList.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GooList.cc; sourceTree = "<group>"; };
+		1A7AC71013AC5A5F0004C932 /* GooList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GooList.h; sourceTree = "<group>"; };
+		1A7AC71113AC5A5F0004C932 /* GooString.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GooString.cc; sourceTree = "<group>"; };
+		1A7AC71213AC5A5F0004C932 /* GooString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GooString.h; sourceTree = "<group>"; };
+		1A7AC71313AC5A5F0004C932 /* gstrtod.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gstrtod.cc; sourceTree = "<group>"; };
+		1A7AC71413AC5A5F0004C932 /* gstrtod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gstrtod.h; sourceTree = "<group>"; };
+		1A7AC71513AC5A5F0004C932 /* gtypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gtypes.h; sourceTree = "<group>"; };
+		1A7AC71A13AC5A5F0004C932 /* PDFTextLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFTextLib.h; sourceTree = "<group>"; };
+		1A7AC71B13AC5A5F0004C932 /* PDFTextLib.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PDFTextLib.mm; sourceTree = "<group>"; };
+		1A7AC71D13AC5A5F0004C932 /* Array.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Array.cc; sourceTree = "<group>"; };
+		1A7AC71E13AC5A5F0004C932 /* Array.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Array.h; sourceTree = "<group>"; };
+		1A7AC71F13AC5A5F0004C932 /* BuiltinFont.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BuiltinFont.cc; sourceTree = "<group>"; };
+		1A7AC72013AC5A5F0004C932 /* BuiltinFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuiltinFont.h; sourceTree = "<group>"; };
+		1A7AC72113AC5A5F0004C932 /* BuiltinFontTables.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BuiltinFontTables.cc; sourceTree = "<group>"; };
+		1A7AC72213AC5A5F0004C932 /* BuiltinFontTables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuiltinFontTables.h; sourceTree = "<group>"; };
+		1A7AC72313AC5A5F0004C932 /* Catalog.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Catalog.cc; sourceTree = "<group>"; };
+		1A7AC72413AC5A5F0004C932 /* Catalog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Catalog.h; sourceTree = "<group>"; };
+		1A7AC72513AC5A5F0004C932 /* CharCodeToUnicode.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CharCodeToUnicode.cc; sourceTree = "<group>"; };
+		1A7AC72613AC5A5F0004C932 /* CharCodeToUnicode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharCodeToUnicode.h; sourceTree = "<group>"; };
+		1A7AC72713AC5A5F0004C932 /* CMap.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CMap.cc; sourceTree = "<group>"; };
+		1A7AC72813AC5A5F0004C932 /* CMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMap.h; sourceTree = "<group>"; };
+		1A7AC72913AC5A5F0004C932 /* Decrypt.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Decrypt.cc; sourceTree = "<group>"; };
+		1A7AC72A13AC5A5F0004C932 /* Decrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Decrypt.h; sourceTree = "<group>"; };
+		1A7AC72B13AC5A600004C932 /* Dict.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Dict.cc; sourceTree = "<group>"; };
+		1A7AC72C13AC5A600004C932 /* Dict.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dict.h; sourceTree = "<group>"; };
+		1A7AC72D13AC5A600004C932 /* Error.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Error.cc; sourceTree = "<group>"; };
+		1A7AC72E13AC5A600004C932 /* Error.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Error.h; sourceTree = "<group>"; };
+		1A7AC72F13AC5A600004C932 /* ErrorCodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ErrorCodes.h; sourceTree = "<group>"; };
+		1A7AC73013AC5A600004C932 /* FontEncodingTables.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FontEncodingTables.cc; sourceTree = "<group>"; };
+		1A7AC73113AC5A600004C932 /* FontEncodingTables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontEncodingTables.h; sourceTree = "<group>"; };
+		1A7AC73213AC5A600004C932 /* Function.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Function.cc; sourceTree = "<group>"; };
+		1A7AC73313AC5A600004C932 /* Function.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Function.h; sourceTree = "<group>"; };
+		1A7AC73413AC5A600004C932 /* Gfx.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Gfx.cc; sourceTree = "<group>"; };
+		1A7AC73513AC5A600004C932 /* Gfx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gfx.h; sourceTree = "<group>"; };
+		1A7AC73613AC5A600004C932 /* GfxFont.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GfxFont.cc; sourceTree = "<group>"; };
+		1A7AC73713AC5A600004C932 /* GfxFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GfxFont.h; sourceTree = "<group>"; };
+		1A7AC73813AC5A600004C932 /* GfxState.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GfxState.cc; sourceTree = "<group>"; };
+		1A7AC73913AC5A600004C932 /* GfxState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GfxState.h; sourceTree = "<group>"; };
+		1A7AC73A13AC5A600004C932 /* GfxState_helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GfxState_helpers.h; sourceTree = "<group>"; };
+		1A7AC73B13AC5A600004C932 /* GlobalParams.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GlobalParams.cc; sourceTree = "<group>"; };
+		1A7AC73C13AC5A600004C932 /* GlobalParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalParams.h; sourceTree = "<group>"; };
+		1A7AC73D13AC5A600004C932 /* Hints.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Hints.cc; sourceTree = "<group>"; };
+		1A7AC73E13AC5A600004C932 /* Hints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hints.h; sourceTree = "<group>"; };
+		1A7AC73F13AC5A600004C932 /* JArithmeticDecoder.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JArithmeticDecoder.cc; sourceTree = "<group>"; };
+		1A7AC74013AC5A600004C932 /* JArithmeticDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JArithmeticDecoder.h; sourceTree = "<group>"; };
+		1A7AC74113AC5A600004C932 /* JBIG2Stream.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JBIG2Stream.cc; sourceTree = "<group>"; };
+		1A7AC74213AC5A600004C932 /* JBIG2Stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBIG2Stream.h; sourceTree = "<group>"; };
+		1A7AC74313AC5A600004C932 /* JPXStream.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JPXStream.cc; sourceTree = "<group>"; };
+		1A7AC74413AC5A600004C932 /* JPXStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPXStream.h; sourceTree = "<group>"; };
+		1A7AC74513AC5A600004C932 /* Lexer.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Lexer.cc; sourceTree = "<group>"; };
+		1A7AC74613AC5A600004C932 /* Lexer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lexer.h; sourceTree = "<group>"; };
+		1A7AC74713AC5A600004C932 /* Linearization.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Linearization.cc; sourceTree = "<group>"; };
+		1A7AC74813AC5A600004C932 /* Linearization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Linearization.h; sourceTree = "<group>"; };
+		1A7AC74913AC5A600004C932 /* NameToCharCode.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NameToCharCode.cc; sourceTree = "<group>"; };
+		1A7AC74A13AC5A600004C932 /* NameToCharCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NameToCharCode.h; sourceTree = "<group>"; };
+		1A7AC74B13AC5A600004C932 /* NameToUnicodeTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NameToUnicodeTable.h; sourceTree = "<group>"; };
+		1A7AC74C13AC5A600004C932 /* Object.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Object.cc; sourceTree = "<group>"; };
+		1A7AC74D13AC5A600004C932 /* Object.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Object.h; sourceTree = "<group>"; };
+		1A7AC74E13AC5A600004C932 /* OptionalContent.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OptionalContent.cc; sourceTree = "<group>"; };
+		1A7AC74F13AC5A600004C932 /* OptionalContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionalContent.h; sourceTree = "<group>"; };
+		1A7AC75013AC5A600004C932 /* OutputDev.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OutputDev.cc; sourceTree = "<group>"; };
+		1A7AC75113AC5A600004C932 /* OutputDev.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OutputDev.h; sourceTree = "<group>"; };
+		1A7AC75213AC5A610004C932 /* Page.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Page.cc; sourceTree = "<group>"; };
+		1A7AC75313AC5A610004C932 /* Page.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Page.h; sourceTree = "<group>"; };
+		1A7AC75413AC5A610004C932 /* Parser.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Parser.cc; sourceTree = "<group>"; };
+		1A7AC75513AC5A610004C932 /* Parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parser.h; sourceTree = "<group>"; };
+		1A7AC75613AC5A610004C932 /* PDFDoc.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PDFDoc.cc; sourceTree = "<group>"; };
+		1A7AC75713AC5A610004C932 /* PDFDoc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFDoc.h; sourceTree = "<group>"; };
+		1A7AC75813AC5A610004C932 /* PDFDocEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFDocEncoding.h; sourceTree = "<group>"; };
+		1A7AC75913AC5A610004C932 /* PopplerCache.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PopplerCache.cc; sourceTree = "<group>"; };
+		1A7AC75A13AC5A610004C932 /* PopplerCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopplerCache.h; sourceTree = "<group>"; };
+		1A7AC75B13AC5A610004C932 /* PSTokenizer.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PSTokenizer.cc; sourceTree = "<group>"; };
+		1A7AC75C13AC5A610004C932 /* PSTokenizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSTokenizer.h; sourceTree = "<group>"; };
+		1A7AC75D13AC5A610004C932 /* SecurityHandler.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SecurityHandler.cc; sourceTree = "<group>"; };
+		1A7AC75E13AC5A610004C932 /* SecurityHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecurityHandler.h; sourceTree = "<group>"; };
+		1A7AC75F13AC5A610004C932 /* Stream-CCITT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Stream-CCITT.h"; sourceTree = "<group>"; };
+		1A7AC76013AC5A610004C932 /* Stream.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Stream.cc; sourceTree = "<group>"; };
+		1A7AC76113AC5A610004C932 /* Stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stream.h; sourceTree = "<group>"; };
+		1A7AC76213AC5A610004C932 /* TextOutputDev.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TextOutputDev.cc; sourceTree = "<group>"; };
+		1A7AC76313AC5A610004C932 /* TextOutputDev.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextOutputDev.h; sourceTree = "<group>"; };
+		1A7AC76413AC5A610004C932 /* UnicodeCClassTables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnicodeCClassTables.h; sourceTree = "<group>"; };
+		1A7AC76513AC5A610004C932 /* UnicodeCompTables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnicodeCompTables.h; sourceTree = "<group>"; };
+		1A7AC76613AC5A610004C932 /* UnicodeDecompTables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnicodeDecompTables.h; sourceTree = "<group>"; };
+		1A7AC76713AC5A610004C932 /* UnicodeTypeTable.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UnicodeTypeTable.cc; sourceTree = "<group>"; };
+		1A7AC76813AC5A610004C932 /* UnicodeTypeTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnicodeTypeTable.h; sourceTree = "<group>"; };
+		1A7AC76913AC5A610004C932 /* XRef.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = XRef.cc; sourceTree = "<group>"; };
+		1A7AC76A13AC5A610004C932 /* XRef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XRef.h; sourceTree = "<group>"; };
+		1A7AC7B513AC62020004C932 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		32A70AAB03705E1F00C91783 /* PDFTextLib_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFTextLib_Prefix.pch; sourceTree = "<group>"; };
+		8DD76FA10486AA7600D96B5E /* PDFTextLib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PDFTextLib; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6859EA3029092ED04C91782 /* PDFTextLib.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = PDFTextLib.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD76F9B0486AA7600D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD76F9C0486AA7600D96B5E /* Foundation.framework in Frameworks */,
+				1A7AC7B613AC62020004C932 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* PDFTextLib */ = {
+			isa = PBXGroup;
+			children = (
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6859EA2029092E104C91782 /* Documentation */,
+				08FB779DFE84155DC02AAC07 /* External Frameworks and Libraries */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = PDFTextLib;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				1A7AC6FB13AC5A5F0004C932 /* fofi */,
+				1A7AC70613AC5A5F0004C932 /* goo */,
+				1A7AC71A13AC5A5F0004C932 /* PDFTextLib.h */,
+				1A7AC71B13AC5A5F0004C932 /* PDFTextLib.mm */,
+				1A7AC71C13AC5A5F0004C932 /* poppler */,
+				32A70AAB03705E1F00C91783 /* PDFTextLib_Prefix.pch */,
+				08FB7796FE84155DC02AAC07 /* PDFTextLib.m */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		08FB779DFE84155DC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				08FB779EFE84155DC02AAC07 /* Foundation.framework */,
+				1A7AC7B513AC62020004C932 /* Cocoa.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		1A7AC6FB13AC5A5F0004C932 /* fofi */ = {
+			isa = PBXGroup;
+			children = (
+				1A7AC6FC13AC5A5F0004C932 /* FoFiBase.cc */,
+				1A7AC6FD13AC5A5F0004C932 /* FoFiBase.h */,
+				1A7AC6FE13AC5A5F0004C932 /* FoFiEncodings.cc */,
+				1A7AC6FF13AC5A5F0004C932 /* FoFiEncodings.h */,
+				1A7AC70013AC5A5F0004C932 /* FoFiTrueType.cc */,
+				1A7AC70113AC5A5F0004C932 /* FoFiTrueType.h */,
+				1A7AC70213AC5A5F0004C932 /* FoFiType1.cc */,
+				1A7AC70313AC5A5F0004C932 /* FoFiType1.h */,
+				1A7AC70413AC5A5F0004C932 /* FoFiType1C.cc */,
+				1A7AC70513AC5A5F0004C932 /* FoFiType1C.h */,
+			);
+			path = fofi;
+			sourceTree = "<group>";
+		};
+		1A7AC70613AC5A5F0004C932 /* goo */ = {
+			isa = PBXGroup;
+			children = (
+				1A7AC70713AC5A5F0004C932 /* gfile.cc */,
+				1A7AC70813AC5A5F0004C932 /* gfile.h */,
+				1A7AC70913AC5A5F0004C932 /* gmem.cc */,
+				1A7AC70A13AC5A5F0004C932 /* gmem.h */,
+				1A7AC70B13AC5A5F0004C932 /* gmempp.cc */,
+				1A7AC70C13AC5A5F0004C932 /* GooHash.cc */,
+				1A7AC70D13AC5A5F0004C932 /* GooHash.h */,
+				1A7AC70E13AC5A5F0004C932 /* GooLikely.h */,
+				1A7AC70F13AC5A5F0004C932 /* GooList.cc */,
+				1A7AC71013AC5A5F0004C932 /* GooList.h */,
+				1A7AC71113AC5A5F0004C932 /* GooString.cc */,
+				1A7AC71213AC5A5F0004C932 /* GooString.h */,
+				1A7AC71313AC5A5F0004C932 /* gstrtod.cc */,
+				1A7AC71413AC5A5F0004C932 /* gstrtod.h */,
+				1A7AC71513AC5A5F0004C932 /* gtypes.h */,
+			);
+			path = goo;
+			sourceTree = "<group>";
+		};
+		1A7AC71C13AC5A5F0004C932 /* poppler */ = {
+			isa = PBXGroup;
+			children = (
+				1A7AC71D13AC5A5F0004C932 /* Array.cc */,
+				1A7AC71E13AC5A5F0004C932 /* Array.h */,
+				1A7AC71F13AC5A5F0004C932 /* BuiltinFont.cc */,
+				1A7AC72013AC5A5F0004C932 /* BuiltinFont.h */,
+				1A7AC72113AC5A5F0004C932 /* BuiltinFontTables.cc */,
+				1A7AC72213AC5A5F0004C932 /* BuiltinFontTables.h */,
+				1A7AC72313AC5A5F0004C932 /* Catalog.cc */,
+				1A7AC72413AC5A5F0004C932 /* Catalog.h */,
+				1A7AC72513AC5A5F0004C932 /* CharCodeToUnicode.cc */,
+				1A7AC72613AC5A5F0004C932 /* CharCodeToUnicode.h */,
+				1A7AC72713AC5A5F0004C932 /* CMap.cc */,
+				1A7AC72813AC5A5F0004C932 /* CMap.h */,
+				1A7AC72913AC5A5F0004C932 /* Decrypt.cc */,
+				1A7AC72A13AC5A5F0004C932 /* Decrypt.h */,
+				1A7AC72B13AC5A600004C932 /* Dict.cc */,
+				1A7AC72C13AC5A600004C932 /* Dict.h */,
+				1A7AC72D13AC5A600004C932 /* Error.cc */,
+				1A7AC72E13AC5A600004C932 /* Error.h */,
+				1A7AC72F13AC5A600004C932 /* ErrorCodes.h */,
+				1A7AC73013AC5A600004C932 /* FontEncodingTables.cc */,
+				1A7AC73113AC5A600004C932 /* FontEncodingTables.h */,
+				1A7AC73213AC5A600004C932 /* Function.cc */,
+				1A7AC73313AC5A600004C932 /* Function.h */,
+				1A7AC73413AC5A600004C932 /* Gfx.cc */,
+				1A7AC73513AC5A600004C932 /* Gfx.h */,
+				1A7AC73613AC5A600004C932 /* GfxFont.cc */,
+				1A7AC73713AC5A600004C932 /* GfxFont.h */,
+				1A7AC73813AC5A600004C932 /* GfxState.cc */,
+				1A7AC73913AC5A600004C932 /* GfxState.h */,
+				1A7AC73A13AC5A600004C932 /* GfxState_helpers.h */,
+				1A7AC73B13AC5A600004C932 /* GlobalParams.cc */,
+				1A7AC73C13AC5A600004C932 /* GlobalParams.h */,
+				1A7AC73D13AC5A600004C932 /* Hints.cc */,
+				1A7AC73E13AC5A600004C932 /* Hints.h */,
+				1A7AC73F13AC5A600004C932 /* JArithmeticDecoder.cc */,
+				1A7AC74013AC5A600004C932 /* JArithmeticDecoder.h */,
+				1A7AC74113AC5A600004C932 /* JBIG2Stream.cc */,
+				1A7AC74213AC5A600004C932 /* JBIG2Stream.h */,
+				1A7AC74313AC5A600004C932 /* JPXStream.cc */,
+				1A7AC74413AC5A600004C932 /* JPXStream.h */,
+				1A7AC74513AC5A600004C932 /* Lexer.cc */,
+				1A7AC74613AC5A600004C932 /* Lexer.h */,
+				1A7AC74713AC5A600004C932 /* Linearization.cc */,
+				1A7AC74813AC5A600004C932 /* Linearization.h */,
+				1A7AC74913AC5A600004C932 /* NameToCharCode.cc */,
+				1A7AC74A13AC5A600004C932 /* NameToCharCode.h */,
+				1A7AC74B13AC5A600004C932 /* NameToUnicodeTable.h */,
+				1A7AC74C13AC5A600004C932 /* Object.cc */,
+				1A7AC74D13AC5A600004C932 /* Object.h */,
+				1A7AC74E13AC5A600004C932 /* OptionalContent.cc */,
+				1A7AC74F13AC5A600004C932 /* OptionalContent.h */,
+				1A7AC75013AC5A600004C932 /* OutputDev.cc */,
+				1A7AC75113AC5A600004C932 /* OutputDev.h */,
+				1A7AC75213AC5A610004C932 /* Page.cc */,
+				1A7AC75313AC5A610004C932 /* Page.h */,
+				1A7AC75413AC5A610004C932 /* Parser.cc */,
+				1A7AC75513AC5A610004C932 /* Parser.h */,
+				1A7AC75613AC5A610004C932 /* PDFDoc.cc */,
+				1A7AC75713AC5A610004C932 /* PDFDoc.h */,
+				1A7AC75813AC5A610004C932 /* PDFDocEncoding.h */,
+				1A7AC75913AC5A610004C932 /* PopplerCache.cc */,
+				1A7AC75A13AC5A610004C932 /* PopplerCache.h */,
+				1A7AC75B13AC5A610004C932 /* PSTokenizer.cc */,
+				1A7AC75C13AC5A610004C932 /* PSTokenizer.h */,
+				1A7AC75D13AC5A610004C932 /* SecurityHandler.cc */,
+				1A7AC75E13AC5A610004C932 /* SecurityHandler.h */,
+				1A7AC75F13AC5A610004C932 /* Stream-CCITT.h */,
+				1A7AC76013AC5A610004C932 /* Stream.cc */,
+				1A7AC76113AC5A610004C932 /* Stream.h */,
+				1A7AC76213AC5A610004C932 /* TextOutputDev.cc */,
+				1A7AC76313AC5A610004C932 /* TextOutputDev.h */,
+				1A7AC76413AC5A610004C932 /* UnicodeCClassTables.h */,
+				1A7AC76513AC5A610004C932 /* UnicodeCompTables.h */,
+				1A7AC76613AC5A610004C932 /* UnicodeDecompTables.h */,
+				1A7AC76713AC5A610004C932 /* UnicodeTypeTable.cc */,
+				1A7AC76813AC5A610004C932 /* UnicodeTypeTable.h */,
+				1A7AC76913AC5A610004C932 /* XRef.cc */,
+				1A7AC76A13AC5A610004C932 /* XRef.h */,
+			);
+			path = poppler;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD76FA10486AA7600D96B5E /* PDFTextLib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6859EA2029092E104C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				C6859EA3029092ED04C91782 /* PDFTextLib.1 */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DD76F960486AA7600D96B5E /* PDFTextLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB927408733DD40010E9CD /* Build configuration list for PBXNativeTarget "PDFTextLib" */;
+			buildPhases = (
+				8DD76F990486AA7600D96B5E /* Sources */,
+				8DD76F9B0486AA7600D96B5E /* Frameworks */,
+				8DD76F9E0486AA7600D96B5E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PDFTextLib;
+			productInstallPath = "$(HOME)/bin";
+			productName = PDFTextLib;
+			productReference = 8DD76FA10486AA7600D96B5E /* PDFTextLib */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB927808733DD40010E9CD /* Build configuration list for PBXProject "PDFTextLib" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 08FB7794FE84155DC02AAC07 /* PDFTextLib */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DD76F960486AA7600D96B5E /* PDFTextLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD76F990486AA7600D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD76F9A0486AA7600D96B5E /* PDFTextLib.m in Sources */,
+				1A7AC76B13AC5A610004C932 /* FoFiBase.cc in Sources */,
+				1A7AC76C13AC5A610004C932 /* FoFiEncodings.cc in Sources */,
+				1A7AC76D13AC5A610004C932 /* FoFiTrueType.cc in Sources */,
+				1A7AC76E13AC5A610004C932 /* FoFiType1.cc in Sources */,
+				1A7AC76F13AC5A610004C932 /* FoFiType1C.cc in Sources */,
+				1A7AC77013AC5A610004C932 /* gfile.cc in Sources */,
+				1A7AC77113AC5A610004C932 /* gmem.cc in Sources */,
+				1A7AC77213AC5A610004C932 /* gmempp.cc in Sources */,
+				1A7AC77313AC5A610004C932 /* GooHash.cc in Sources */,
+				1A7AC77413AC5A610004C932 /* GooList.cc in Sources */,
+				1A7AC77513AC5A610004C932 /* GooString.cc in Sources */,
+				1A7AC77613AC5A610004C932 /* gstrtod.cc in Sources */,
+				1A7AC77913AC5A610004C932 /* PDFTextLib.mm in Sources */,
+				1A7AC77A13AC5A610004C932 /* Array.cc in Sources */,
+				1A7AC77B13AC5A610004C932 /* BuiltinFont.cc in Sources */,
+				1A7AC77C13AC5A610004C932 /* BuiltinFontTables.cc in Sources */,
+				1A7AC77D13AC5A610004C932 /* Catalog.cc in Sources */,
+				1A7AC77E13AC5A610004C932 /* CharCodeToUnicode.cc in Sources */,
+				1A7AC77F13AC5A610004C932 /* CMap.cc in Sources */,
+				1A7AC78013AC5A610004C932 /* Decrypt.cc in Sources */,
+				1A7AC78113AC5A610004C932 /* Dict.cc in Sources */,
+				1A7AC78213AC5A610004C932 /* Error.cc in Sources */,
+				1A7AC78313AC5A610004C932 /* FontEncodingTables.cc in Sources */,
+				1A7AC78413AC5A610004C932 /* Function.cc in Sources */,
+				1A7AC78513AC5A610004C932 /* Gfx.cc in Sources */,
+				1A7AC78613AC5A610004C932 /* GfxFont.cc in Sources */,
+				1A7AC78713AC5A610004C932 /* GfxState.cc in Sources */,
+				1A7AC78813AC5A610004C932 /* GlobalParams.cc in Sources */,
+				1A7AC78913AC5A610004C932 /* Hints.cc in Sources */,
+				1A7AC78A13AC5A610004C932 /* JArithmeticDecoder.cc in Sources */,
+				1A7AC78B13AC5A610004C932 /* JBIG2Stream.cc in Sources */,
+				1A7AC78C13AC5A610004C932 /* JPXStream.cc in Sources */,
+				1A7AC78D13AC5A610004C932 /* Lexer.cc in Sources */,
+				1A7AC78E13AC5A610004C932 /* Linearization.cc in Sources */,
+				1A7AC78F13AC5A610004C932 /* NameToCharCode.cc in Sources */,
+				1A7AC79013AC5A610004C932 /* Object.cc in Sources */,
+				1A7AC79113AC5A610004C932 /* OptionalContent.cc in Sources */,
+				1A7AC79213AC5A610004C932 /* OutputDev.cc in Sources */,
+				1A7AC79313AC5A610004C932 /* Page.cc in Sources */,
+				1A7AC79413AC5A610004C932 /* Parser.cc in Sources */,
+				1A7AC79513AC5A610004C932 /* PDFDoc.cc in Sources */,
+				1A7AC79613AC5A610004C932 /* PopplerCache.cc in Sources */,
+				1A7AC79713AC5A610004C932 /* PSTokenizer.cc in Sources */,
+				1A7AC79813AC5A610004C932 /* SecurityHandler.cc in Sources */,
+				1A7AC79913AC5A610004C932 /* Stream.cc in Sources */,
+				1A7AC79A13AC5A610004C932 /* TextOutputDev.cc in Sources */,
+				1A7AC79B13AC5A610004C932 /* UnicodeTypeTable.cc in Sources */,
+				1A7AC79C13AC5A610004C932 /* XRef.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB927508733DD40010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PDFTextLib_Prefix.pch;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = PDFTextLib;
+			};
+			name = Debug;
+		};
+		1DEB927608733DD40010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PDFTextLib_Prefix.pch;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = PDFTextLib;
+			};
+			name = Release;
+		};
+		1DEB927908733DD40010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		1DEB927A08733DD40010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB927408733DD40010E9CD /* Build configuration list for PBXNativeTarget "PDFTextLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB927508733DD40010E9CD /* Debug */,
+				1DEB927608733DD40010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB927808733DD40010E9CD /* Build configuration list for PBXProject "PDFTextLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB927908733DD40010E9CD /* Debug */,
+				1DEB927A08733DD40010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}
